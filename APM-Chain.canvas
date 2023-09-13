@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"af895d44e813c6f7","type":"group","x":-1060,"y":-300,"width":400,"height":400,"label":"Inital access"},
+		{"id":"5cbb8102dbbc7d9b","type":"group","x":240,"y":-300,"width":400,"height":400,"label":"Target reached"},
+		{"id":"a4902286d925f987","type":"text","text":"Compromise Client","x":-1020,"y":-190,"width":250,"height":60},
+		{"id":"75ae3661a64c42bf","type":"text","text":"Target System","x":320,"y":-180,"width":250,"height":50,"color":"6"},
+		{"id":"e436859fc441a040","type":"text","text":"Compromise Server Y","x":-460,"y":-220,"width":250,"height":60},
+		{"id":"9bc59241d073eeee","type":"text","text":"Compromise Server X","x":-770,"y":-40,"width":250,"height":60},
+		{"id":"49d380917ff3a0bf","x":-120,"y":-100,"width":250,"height":60,"type":"text","text":""}
+	],
+	"edges":[
+		{"id":"7899345273f56f19","fromNode":"a4902286d925f987","fromSide":"bottom","toNode":"9bc59241d073eeee","toSide":"left","label":"Lateral movement"},
+		{"id":"afed57fc7240232f","fromNode":"9bc59241d073eeee","fromSide":"right","toNode":"e436859fc441a040","toSide":"bottom","label":"Dump credentials"},
+		{"id":"3d5d5ed4c67a3697","fromNode":"e436859fc441a040","fromSide":"right","toNode":"49d380917ff3a0bf","toSide":"top"},
+		{"id":"c1478c4dd127c479","fromNode":"49d380917ff3a0bf","fromSide":"right","toNode":"75ae3661a64c42bf","toSide":"left"}
+	]
+}

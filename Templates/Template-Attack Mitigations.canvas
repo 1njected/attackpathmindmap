@@ -1,0 +1,37 @@
+{
+	"nodes":[
+		{"id":"1c30f8788c9e5b6d","type":"group","x":-465,"y":-574,"width":1165,"height":1148,"label":"Attack Mitigations"},
+		{"id":"a238d30209527438","type":"text","text":"Vulnerability scanning","x":-67,"y":447,"width":250,"height":60},
+		{"id":"eec689553a10d8b7","type":"text","text":"Detection and Response","x":-430,"y":-401,"width":250,"height":60},
+		{"id":"043f5cf944f21438","type":"text","text":"Antivirus","x":-56,"y":-560,"width":250,"height":52},
+		{"id":"4b5691d9621e9a78","type":"text","text":"EDR","x":-56,"y":-414,"width":250,"height":60},
+		{"id":"4714fa506450dacb","type":"text","text":"Security Logging","x":-56,"y":-491,"width":250,"height":60},
+		{"id":"24aa74a059af07ed","type":"text","text":"SOC","x":340,"y":-461,"width":250,"height":60},
+		{"id":"c6789c0739827900","type":"text","text":"Default credentials removed","x":-56,"y":-281,"width":250,"height":60},
+		{"id":"06c0ea7625bffd9b","type":"text","text":"Vendor Best Practices","x":-56,"y":-200,"width":250,"height":60},
+		{"id":"5b613005b45a9b32","type":"text","text":"Network Segmentation","x":-56,"y":-120,"width":250,"height":60},
+		{"id":"a701f9c97319c894","type":"text","text":"IDS","x":-65,"y":90,"width":250,"height":60},
+		{"id":"e6f41b8178f372ab","type":"text","text":"Proxy","x":-65,"y":7,"width":250,"height":60},
+		{"id":"a99d1a81f94c622a","type":"text","text":"Network","x":-430,"y":21,"width":250,"height":60},
+		{"id":"682cec3322495927","type":"text","text":"Hardening","x":-430,"y":-311,"width":250,"height":60},
+		{"id":"3f22afe9c63bc020","type":"text","text":"Patch Management","x":-430,"y":467,"width":250,"height":60},
+		{"id":"b8baa3c915ba4a87","type":"text","text":"MFA","x":-56,"y":202,"width":250,"height":60},
+		{"id":"d67cc977fda32e10","type":"text","text":"Credentials","x":-430,"y":281,"width":250,"height":60},
+		{"id":"b34043b67c0920a6","type":"text","text":"Privileged Access Management","x":-56,"y":301,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"f998bc13a0b54fdb","fromNode":"682cec3322495927","fromSide":"right","toNode":"c6789c0739827900","toSide":"left"},
+		{"id":"d6f150417d78cf48","fromNode":"682cec3322495927","fromSide":"right","toNode":"06c0ea7625bffd9b","toSide":"left"},
+		{"id":"a9380a85aef521af","fromNode":"a99d1a81f94c622a","fromSide":"right","toNode":"a701f9c97319c894","toSide":"left"},
+		{"id":"74d5b5a946ec2815","fromNode":"d67cc977fda32e10","fromSide":"right","toNode":"b8baa3c915ba4a87","toSide":"left"},
+		{"id":"589e2f5fd654fbc8","fromNode":"d67cc977fda32e10","fromSide":"right","toNode":"b34043b67c0920a6","toSide":"left"},
+		{"id":"b821342326ae4731","fromNode":"682cec3322495927","fromSide":"right","toNode":"5b613005b45a9b32","toSide":"left"},
+		{"id":"97e83d142c478d46","fromNode":"eec689553a10d8b7","fromSide":"right","toNode":"043f5cf944f21438","toSide":"left"},
+		{"id":"0f869ed7411b2ceb","fromNode":"a99d1a81f94c622a","fromSide":"right","toNode":"e6f41b8178f372ab","toSide":"left"},
+		{"id":"974146f6f3c4e70e","fromNode":"3f22afe9c63bc020","fromSide":"right","toNode":"a238d30209527438","toSide":"left"},
+		{"id":"40d0511f50e13db2","fromNode":"eec689553a10d8b7","fromSide":"right","toNode":"4b5691d9621e9a78","toSide":"left"},
+		{"id":"961336459289ad88","fromNode":"eec689553a10d8b7","fromSide":"right","toNode":"4714fa506450dacb","toSide":"left"},
+		{"id":"634fc522c07b6012","fromNode":"4714fa506450dacb","fromSide":"right","toNode":"24aa74a059af07ed","toSide":"left"},
+		{"id":"e69159e373ee1abe","fromNode":"4b5691d9621e9a78","fromSide":"right","toNode":"24aa74a059af07ed","toSide":"left"}
+	]
+}

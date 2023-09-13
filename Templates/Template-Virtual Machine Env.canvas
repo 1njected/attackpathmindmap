@@ -1,0 +1,22 @@
+{
+	"nodes":[
+		{"id":"a7416ac0866acaab","type":"group","x":-1179,"y":-480,"width":719,"height":660,"label":"Exposure"},
+		{"id":"98eb616782f426fa","type":"text","text":"VM Hosts","x":-1120,"y":-180,"width":250,"height":60},
+		{"id":"ced45202b4c11e0c","type":"text","text":"VM Management","x":-1120,"y":-280,"width":250,"height":60},
+		{"id":"669b44dd170450aa","type":"text","text":"Storage","x":-1120,"y":-80,"width":250,"height":60},
+		{"id":"c04966e9a77ca909","type":"text","text":"Management Interfaces","x":-1120,"y":-380,"width":250,"height":60},
+		{"id":"2bddd0aab593ed5f","type":"text","text":"Backup","x":-1120,"y":20,"width":250,"height":60},
+		{"id":"fc15f735537144a1","type":"text","text":"VM Networks","x":-820,"y":-240,"width":250,"height":60},
+		{"id":"7a89961b266a6681","x":-1544,"y":-251,"width":250,"height":60,"type":"text","text":"Virtual Machine Env"}
+	],
+	"edges":[
+		{"id":"370c733352f234e9","fromNode":"c04966e9a77ca909","fromSide":"bottom","toNode":"ced45202b4c11e0c","toSide":"top"},
+		{"id":"0cdea80f5513c600","fromNode":"ced45202b4c11e0c","fromSide":"bottom","toNode":"98eb616782f426fa","toSide":"top"},
+		{"id":"976cbb8fd6d2d633","fromNode":"98eb616782f426fa","fromSide":"bottom","toNode":"669b44dd170450aa","toSide":"top"},
+		{"id":"cfe78835cf5d854a","fromNode":"669b44dd170450aa","fromSide":"bottom","toNode":"2bddd0aab593ed5f","toSide":"top"},
+		{"id":"6c642cee13c63eab","fromNode":"ced45202b4c11e0c","fromSide":"right","toNode":"fc15f735537144a1","toSide":"top"},
+		{"id":"f1e1d5cfe778a720","fromNode":"fc15f735537144a1","fromSide":"bottom","toNode":"98eb616782f426fa","toSide":"right"},
+		{"id":"ef7db2f357e9bad1","fromNode":"fc15f735537144a1","fromSide":"bottom","toNode":"669b44dd170450aa","toSide":"right"},
+		{"id":"883bf05dee76579b","fromNode":"7a89961b266a6681","fromSide":"right","toNode":"a7416ac0866acaab","toSide":"left"}
+	]
+}

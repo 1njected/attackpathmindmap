@@ -1,0 +1,12 @@
+{
+	"nodes":[
+		{"id":"2879efcb8103bc73","type":"group","x":-665,"y":-580,"width":525,"height":620,"label":"Exposure"},
+		{"id":"d186b3fc8a212a27","type":"text","text":"Source Code Repo","x":-580,"y":-500,"width":250,"height":60},
+		{"id":"a5ac240886b4587c","type":"text","text":"Runtime Environment","x":-580,"y":-400,"width":250,"height":60},
+		{"id":"8dd46845b8ab4dae","type":"text","text":"CI/CD","x":-580,"y":-300,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"12a970a0cb88ad2f","fromNode":"d186b3fc8a212a27","fromSide":"bottom","toNode":"a5ac240886b4587c","toSide":"top"},
+		{"id":"f275df118e2bd751","fromNode":"a5ac240886b4587c","fromSide":"bottom","toNode":"8dd46845b8ab4dae","toSide":"top"}
+	]
+}
