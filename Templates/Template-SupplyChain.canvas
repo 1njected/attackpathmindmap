@@ -1,0 +1,8 @@
+{
+	"nodes":[
+		{"id":"d5c8649fdf6a7607","type":"text","text":"Third party software/libraries","x":-60,"y":-300,"width":301,"height":60},
+		{"id":"272927eb17292c08","x":-60,"y":-220,"width":301,"height":60,"type":"text","text":"BIOS/HW firmware"},
+		{"id":"2a626403d5d52c74","x":-60,"y":-140,"width":301,"height":60,"type":"text","text":"Partner access"}
+	],
+	"edges":[]
+}

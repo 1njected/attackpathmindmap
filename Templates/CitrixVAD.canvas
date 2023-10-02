@@ -1,0 +1,10 @@
+{
+	"nodes":[
+		{"id":"549d999d0500cd42","type":"group","x":-530,"y":-753,"width":1170,"height":1233,"label":"Exposure"},
+		{"id":"54b14a20432c7899","type":"text","text":"Profile Management","x":699,"y":165,"width":250,"height":60},
+		{"id":"34b919c1f4350ac0","type":"text","text":"Copy paste","x":673,"y":305,"width":250,"height":60},
+		{"id":"2943ec2e03d34c93","x":733,"y":402,"width":250,"height":60,"type":"text","text":"Hardening"},
+		{"id":"8cb8e78ed68854ac","x":639,"y":520,"width":250,"height":60,"type":"text","text":"Network segment - is it server or client"}
+	],
+	"edges":[]
+}
